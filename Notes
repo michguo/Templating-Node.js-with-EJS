@@ -4,5 +4,18 @@ package.json
 server.js 
     - hold our Express server setup, configution
     - define our routes to our pages here
+EJS
+    - Node.js templating language
+Express.js
+    - web application framework
+    - organize web application into MVC architecture on the server side
+    - Express.js is to Node.js as Ruby on Rails is to Ruby
+What is view engine?
+    - responsible for creating HTML from your views
+    - views are some kind of mixup of HTML and a programming language
+EJS Partials
+    - there will be a lot of code that is reused
+    - head, header, footer
 1. set up project in package.json
 2. run npm install to install the dependencies
+3. in the server.js, configure app to use EJS and set up routes for index page and about page
