@@ -1,0 +1,8 @@
+package.json 
+    - hold Node application info and the dependencies we need (express and EJS)
+    - dependencies - modules basically
+server.js 
+    - hold our Express server setup, configution
+    - define our routes to our pages here
+1. set up project in package.json
+2. run npm install to install the dependencies
